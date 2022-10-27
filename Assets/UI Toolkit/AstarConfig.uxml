@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox name="GroupBox" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+        <ui:Label tabindex="-1" text="Map Size" display-tooltip-when-elided="true" style="font-size: 10px;" />
+        <ui:GroupBox style="flex-direction: row; padding-bottom: 0; padding-top: 0; padding-left: 0; margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0; justify-content: flex-start;">
+            <ui:DropdownField index="-1" choices="5,10,20" name="Width" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 45%;" />
+            <ui:Label tabindex="-1" text="x" display-tooltip-when-elided="true" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; justify-content: center; align-items: center; -unity-text-align: middle-center; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:DropdownField index="-1" choices="5,10,20" name="Height" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; width: 45%;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>
